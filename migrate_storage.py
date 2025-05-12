@@ -2,7 +2,7 @@ import argparse
 
 from botocore.exceptions import ClientError
 
-from Logger import Logger
+from logger import Logger
 from google_storage_client import GoogleStorageClient
 from magalu_cloud_client import MagaluCloudClient
 from storage_migrator import StorageMigrator
